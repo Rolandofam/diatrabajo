@@ -36,7 +36,7 @@ Version      : 1.0
     --color-navbar: #66a478;
     --color-navbar-hover: #056125;
     --color-blog-page: #93bab0;
-    /* --color-tertiary: #2e7d32; */
+    --color-section-top: #074452;
     /* --color-accent: #d84315; */
     /* --color-bg: #f8f9fa; */
     /* --color-surface: #ffffff; */
@@ -2643,14 +2643,16 @@ ul.blog_pagination li a:hover {
  * ----------------------------------------------------------------------------------------
  */
 .section-top {
-    background: #321949;
+    /* background: #321949; */
+    background: var(--color-section-top);
     padding-bottom: 120px;
     padding-top: 200px;
     position: relative;
 }
 .section-top-map {
     padding: 50px;
-    background: #321949;
+    /* background: #321949; */
+    background: var(--color-section-top);
 }
 .section-top-title h1 {
     margin: 0;
