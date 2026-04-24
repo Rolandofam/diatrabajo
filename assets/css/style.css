@@ -50,16 +50,20 @@ Version      : 1.0
     /* background: var(--color-primary); */
 }
 
-.sangria{
+.sangria {
     margin-left: 80px;
 }
-.sangria_modal{
+.sangria_modal {
     margin-left: 50px;
 }
 
-.centrarCaja{
-    position :relative !important; 
+.centrarCaja {
+    position: relative !important;
     left: 40% !important;
+}
+.centrarImagen {
+    display: block;
+    margin: 0 auto;
 }
 
 body {
