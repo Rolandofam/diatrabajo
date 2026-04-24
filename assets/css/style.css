@@ -1427,6 +1427,7 @@ figure.effect-sadie:hover p {
 .works_area {
     padding-top: 60px;
     padding-bottom: 50px;
+    background-color: var(--color-blog-page);
 }
 .portfolio-filters {
     margin-bottom: 60px;
